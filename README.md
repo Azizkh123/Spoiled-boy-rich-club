@@ -1,1 +1,0 @@
-# Spoiled-boy-rich-club
