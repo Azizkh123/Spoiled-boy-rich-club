@@ -138,6 +138,12 @@ h1.icon-box-title {
 .social-icon i{
   font-size: 3rem;
 }
+.card-title a{
+color :#333;
+}
+.footer a:hover, .footer a:focus{
+color :#333;
+}
 @media screen and (max-width: 1440px) {
   .rare_figure {
     width: 25rem;
