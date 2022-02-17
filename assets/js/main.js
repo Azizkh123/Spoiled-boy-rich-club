@@ -80,6 +80,16 @@ $(document).ready(function () {
 		$('.menu-toggler').removeClass('active');
 		e.preventDefault();
     });
+	$('.mobile-menu li > a').on('click', function (e) {
+		console.log('ok');
+        setTimeout(function() { 
+            $('body').removeClass('mmenu-active');
+		// $('div').removeClass('mobile-menu-container');
+		$('.menu-toggler').removeClass('active');
+		e.preventDefault();
+        }, 0);
+		
+	});
 
 	// Add Mobile menu icon arrows to items with children
     $('.mobile-menu').find('li').each(function () {
